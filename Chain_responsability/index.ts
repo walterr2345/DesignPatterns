@@ -1,18 +1,9 @@
 import { ProductNameHandler } from "./Handlers/NameHandler";
 import { ProductPriceHandler } from "./Handlers/priceHandler";
 import { ProductWeihtHandler } from "./Handlers/WeightHandler";
+import { Product } from "./productClass";
 
-class Product {
-    name: string;
-    price: number;
-    weight: number;
 
-    constructor(name: string, price: number, weight: number) {
-        this.name = name;
-        this.price = price;
-        this.weight = weight;
-    }
-}
 
 const Product1 = new Product('A', 130, 5)
 const Product2 = new Product('B', 140, 3)
